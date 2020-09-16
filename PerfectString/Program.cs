@@ -29,6 +29,7 @@ namespace PerfectString
                 {
                     keyValuePairs[c] = 1;
                 }
+
             }
 
             var disticntResult = keyValuePairs.Values.Distinct(); // take the distnct count of chars.
